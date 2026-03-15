@@ -64,11 +64,11 @@
 
         nav {
             bindings = <
-&kp F1  &kp F2           &kp F3        &kp F4        &kp F5        &kp F6                          &kp F7      &kp F8          &kp F9          &kp F10        &kp F11       &kp F12
-&trans  &kt PAUSE_BREAK  &kp N7        &kp N8        &kp N9        &kp INS                         &kp INSERT  &kp HOME        &kp UP          &kp END        &trans        &trans
-&trans  &kp PRINTSCREEN  &kp NUMBER_4  &kp NUMBER_5  &kp N6        &kp NUMBER_0                    &kp ENTER   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp CAPSLOCK  &trans
-&trans  &trans           &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp DEL       &trans    &trans  &kp DELETE  &kp BACKSPACE   &kp PAGE_UP     &kp PAGE_DOWN  &trans        &trans
-                         &trans        &trans        &trans        &trans        &trans    &trans  &mo 3       &trans          &kp N0          &trans
+&kp F11  &kp F1           &kp F2        &kp F3        &kp F4        &kp F5                          &kp F6      &kp F7          &kp F8          &kp F9         &kp F10       &kp F12
+&trans   &kt PAUSE_BREAK  &kp N7        &kp N8        &kp N9        &kp INS                         &kp INSERT  &kp HOME        &kp UP          &kp END        &trans        &trans
+&trans   &kp PRINTSCREEN  &kp NUMBER_4  &kp NUMBER_5  &kp N6        &kp NUMBER_0                    &kp ENTER   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp CAPSLOCK  &trans
+&trans   &trans           &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp DEL       &trans    &trans  &kp DELETE  &kp BACKSPACE   &kp PAGE_UP     &kp PAGE_DOWN  &trans        &trans
+                          &trans        &trans        &trans        &trans        &trans    &trans  &mo 3       &trans          &kp N0          &trans
             >;
 
             display-name = "Nav";
@@ -76,11 +76,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp F3    &kp F4     &kp F5    &trans                       &trans     &trans    &trans     &trans    &trans    &trans
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &trans
-&trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &trans    &trans
-                  &trans    &trans     &trans    &mo 3      &trans    &trans  &trans     &trans    &trans     &trans
+&kp F11  &kp F1    &kp F2    &kp F3     &kp F4    &kp F5                       &kp F6     &kp F7    &kp F8     &kp F9    &kp F10   &kp F12
+&trans   &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
+&trans   &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &trans
+&trans   &trans    &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &trans    &trans
+                   &trans    &trans     &trans    &mo 3      &trans    &trans  &trans     &trans    &trans     &trans
             >;
 
             display-name = "Symbols";
