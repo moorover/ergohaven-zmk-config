@@ -59,11 +59,11 @@
 
         base {
             bindings = <
-&kp F1     &kp F2   &kp F3              &kp F4        &kp F5               &kp F6                                           &kp F7  &kp F8                &kp F9         &kp F10             &kp F11   &kp F12
-&kp ESC    &kp Q    &kp W               &kp E         &kp R                &kp T                                            &kp Y   &kp U                 &kp I          &kp O               &kp P     &kp BSLH
-&kp TAB    &lt 4 A  &kp S               &kp D         &kp F                &kp G                                            &kp H   &hmr LEFT_ALT J       &hmr RCTRL K   &hmr RIGHT_SHIFT L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z    &kp X               &kp C         &kp V                &kp B   &kp ENTER           &kp K_CONTEXT_MENU   &kp N   &kp M                 &kp COMMA      &kp DOT             &kp FSLH  &kp RSHFT
-                    &kp K_CONTEXT_MENU  &kp LEFT_GUI  &mt LEFT_ALT DELETE  &mo 2   &kp LEFT_CONTROL    &hmr LEFT_ALT SPACE  &mo 1   &hmr RCTRL BACKSPACE  &kp RIGHT_GUI  &kp RCTRL
+&kp ESC    &kp F2   &kp F3              &kp F4        &kp F5               &kp F6                                           &kp F7  &kp F8                     &kp F9         &kp F10             &kp F11   &kp F12
+&kp F1     &kp Q    &kp W               &kp E         &kp R                &kp T                                            &kp Y   &kp U                      &kp I          &kp O               &kp P     &kp BSLH
+&kp TAB    &lt 4 A  &kp S               &kp D         &kp F                &kp G                                            &kp H   &hmr LEFT_ALT J            &hmr RCTRL K   &hmr RIGHT_SHIFT L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z    &kp X               &kp C         &kp V                &kp B   &kp ENTER           &kp K_CONTEXT_MENU   &kp N   &kp M                      &kp COMMA      &kp DOT             &kp FSLH  &kp RSHFT
+                    &kp K_CONTEXT_MENU  &kp LEFT_GUI  &mt LEFT_ALT DELETE  &mo 2   &kp LEFT_CONTROL    &hmr LEFT_ALT SPACE  &mo 1   &hmr RCTRL K_CONTEXT_MENU  &kp RIGHT_GUI  &kp RCTRL
             >;
 
             display-name = "Base";
